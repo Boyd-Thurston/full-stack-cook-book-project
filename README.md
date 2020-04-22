@@ -1,28 +1,37 @@
-# A starter webpack project for React
+# Full Stack Cookbook Personal Project
+ 
+This project is to test my learning and create a full stack web app. The idea behind the app is a personalised cookbook that lets you use a recipe API to find new recipes that you can save to your cookbook. Potentially with the ability to have multiple users as well as adding your own customised recipes.
+ 
+intended API has not panned out, with lake of a decent replacement this concept has been removed. Current concept is to allow saving of a custom recipe with an option to share it for searches that will have more content as the db grows. Now loosing a large part of the functionality the concept will now include a stretch goal of allowing a user to create a meal plan for a week and get a combined list of increadiants as a shoping list starter.
+ 
+# learning objectives
+[] full stack integrated
+[] DB created
+[] API linked and called on
+[] react single page webapp front end
+[] clean and professional use of CSS
+[] basic authentication
+[] profile based personalisation 
+[] full test suite
+[] deployed to heroku
+ 
+# Technology used
+ 
+For this project I plan to use the full range of technology and techniques such as redux, react, express, API's, relational database, and a full test suite as well as the expected languages for these technologies such as javascript, JSX, SQL, HTML and CSS.
+ 
+# MVP use stories
+ 
+[] As a user I want to be able to search for a recipe
+[] As a user I want to be able to save a recipe I have found to my own personal cook book
+[] As a user I want to be able to add a custom recipe to my cookbook 
+ 
+# stretch goals
+[] As a user I want to be able to refine my search for a recipe
+[] As a user I want to be able to log into my profile that has a unique log in
+[] As a user I want to be able to change preferences on my unique account
+[] As a user I want to be able to make a meal plan for a week with the saved recipes in my cookbook
+[] As a user I want to be able to recive a shoping list starter with the combined ingredients from the meal plan
+[] As an admin I want to be able to limit the ability to share a recipe if IP concerns are raised
+ 
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
-
-* Fork this repo
-* Rename your repo according to the app you're building
-
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && npm i
-```
-
-To start the development server with a watcher that rebuilds your code, run `npm run dev`. The assets built by webpack are placed in `server/public`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
-
-Additional components should be placed in `client/components`.
-
-## Separate client/server
-
-The boilerplate is also set up to host the client using `webpack-dev-server` with hot module reloading etc. To use this method, in one terminal run:
-```sh
-npm run client
-```
-and in the other:
-```sh
-npm run server
-```
-The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports.
-
+![](schema.png)
