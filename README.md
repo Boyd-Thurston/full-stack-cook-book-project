@@ -5,15 +5,16 @@ This project is to test my learning and create a full stack web app. The idea be
 intended API has not panned out, with lake of a decent replacement this concept has been removed. Current concept is to allow saving of a custom recipe with an option to share it for searches that will have more content as the db grows. Now loosing a large part of the functionality the concept will now include a stretch goal of allowing a user to create a meal plan for a week and get a combined list of increadiants as a shoping list starter.
  
 # learning objectives
-[] full stack integrated
-[] DB created
-[] API linked and called on
-[] react single page webapp front end
-[] clean and professional use of CSS
-[] basic authentication
-[] profile based personalisation 
-[] full test suite
-[] deployed to heroku
+
+[ ] full stack integrated
+[ ] DB created
+[ ] API linked and called on
+[ ] react single page webapp front end
+[ ] clean and professional use of CSS
+[ ] basic authentication
+[ ] profile based personalisation 
+[ ] full test suite
+[ ] deployed to heroku
  
 # Technology used
  
@@ -21,17 +22,18 @@ For this project I plan to use the full range of technology and techniques such 
  
 # MVP use stories
  
-[] As a user I want to be able to search for a recipe
-[] As a user I want to be able to save a recipe I have found to my own personal cook book
-[] As a user I want to be able to add a custom recipe to my cookbook 
+[ ] As a user I want to be able to search for a recipe
+[ ] As a user I want to be able to save a recipe I have found to my own personal cook book
+[ ] As a user I want to be able to add a custom recipe to my cookbook 
  
 # stretch goals
-[] As a user I want to be able to refine my search for a recipe
-[] As a user I want to be able to log into my profile that has a unique log in
-[] As a user I want to be able to change preferences on my unique account
-[] As a user I want to be able to make a meal plan for a week with the saved recipes in my cookbook
-[] As a user I want to be able to recive a shoping list starter with the combined ingredients from the meal plan
-[] As an admin I want to be able to limit the ability to share a recipe if IP concerns are raised
+
+[ ] As a user I want to be able to refine my search for a recipe
+[ ] As a user I want to be able to log into my profile that has a unique log in
+[ ] As a user I want to be able to change preferences on my unique account
+[ ] As a user I want to be able to make a meal plan for a week with the saved recipes in my cookbook
+[ ] As a user I want to be able to recive a shoping list starter with the combined ingredients from the meal plan
+[ ] As an admin I want to be able to limit the ability to share a recipe if IP concerns are raised
  
 
 ![](schema.png)
