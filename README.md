@@ -6,15 +6,15 @@ intended API has not panned out, with lake of a decent replacement this concept 
  
 # learning objectives
 
-[ ] full stack integrated
-[ ] DB created
-[ ] API linked and called on
-[ ] react single page webapp front end
-[ ] clean and professional use of CSS
-[ ] basic authentication
-[ ] profile based personalisation 
-[ ] full test suite
-[ ] deployed to heroku
+- [ ] full stack integrated
+- [ ] DB created
+- [ ] API linked and called on
+- [ ] react single page webapp front end
+- [ ] clean and professional use of CSS
+- [ ] basic authentication
+- [ ] profile based personalisation 
+- [ ] full test suite
+- [ ] deployed to heroku
  
 # Technology used
  
@@ -22,18 +22,18 @@ For this project I plan to use the full range of technology and techniques such 
  
 # MVP use stories
  
-[ ] As a user I want to be able to search for a recipe
-[ ] As a user I want to be able to save a recipe I have found to my own personal cook book
-[ ] As a user I want to be able to add a custom recipe to my cookbook 
+- [ ] As a user I want to be able to search for a recipe
+- [ ] As a user I want to be able to save a recipe I have found to my own personal cook book
+- [ ] As a user I want to be able to add a custom recipe to my cookbook 
  
 # stretch goals
 
-[ ] As a user I want to be able to refine my search for a recipe
-[ ] As a user I want to be able to log into my profile that has a unique log in
-[ ] As a user I want to be able to change preferences on my unique account
-[ ] As a user I want to be able to make a meal plan for a week with the saved recipes in my cookbook
-[ ] As a user I want to be able to recive a shoping list starter with the combined ingredients from the meal plan
-[ ] As an admin I want to be able to limit the ability to share a recipe if IP concerns are raised
+- [ ] As a user I want to be able to refine my search for a recipe
+- [ ] As a user I want to be able to log into my profile that has a unique log in
+- [ ] As a user I want to be able to change preferences on my unique account
+- [ ] As a user I want to be able to make a meal plan for a week with the saved recipes in my cookbook
+- [ ] As a user I want to be able to recive a shoping list starter with the combined ingredients from the meal plan
+- [ ] As an admin I want to be able to limit the ability to share a recipe if IP concerns are raised
  
 
 ![](schema.png)
