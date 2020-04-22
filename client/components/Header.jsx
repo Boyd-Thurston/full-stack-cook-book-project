@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className="hero">
+    <header className="hero is-warning">
       <div className="hero-body">
         <div className="container">
           <h1 className="title">

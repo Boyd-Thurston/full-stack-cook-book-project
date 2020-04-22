@@ -10,7 +10,7 @@ const MainSection = () => {
     <Router >
       <div className="column">
         {/* conditional rendering */}
-        <Route path="/" component={Home}/>
+        <Route exact path="/" component={Home}/>
         <Route path="/recipe/add" component={RecipeForm}/>
         <Route path="/recipe/view/:id" component={RecipeView}/>
       </div>
