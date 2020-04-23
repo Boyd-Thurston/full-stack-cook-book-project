@@ -14,7 +14,7 @@ class RecipeForm extends React.Component {
     return (
       <>
       {/* info text */}
-        <h2>How To:</h2>
+        <h2 className="title">How to use this form</h2>
         <p>
           This page allows you to add a your own new recipe to your cookbook. Use the form 
           fields below to give your recipe and name, enter the ingredients and the recipe its 
@@ -22,11 +22,13 @@ class RecipeForm extends React.Component {
           see it take shape before your eyes. Once you are stisfied you can submit it using 
           the controls at the bottom of the page. 
         </p>
+        <br/>
 
       {/* add name field of the form */}
+        <label className="label">Name your recipe</label>
         <div className="field is-grouped">
           <p className="control is-expanded">
-            <input className="input" type="text" placeholder="Name your recipe" value="" onChange={this.handleOnChange}/>
+            <input className="input" type="text" placeholder="recipe name" value="" onChange={this.handleOnChange}/>
           </p>
           <p className="control">
             <button type="submit" className="button is-primary">Name it!</button>
@@ -34,9 +36,7 @@ class RecipeForm extends React.Component {
         </div>
 
       {/* add new ingredient field of the form */}
-        <p>
-          Add a new ingredient
-        </p>
+        <label className="label">Add a new ingredient</label>
         <div className="field is-grouped">
           <p className="control is-expanded">
             <input className="input" type="text" name="ingredient" placeholder="ingredient" value="" onChange={this.handleOnChange}/>
@@ -65,6 +65,13 @@ class RecipeForm extends React.Component {
 
 
         {/* add recipe filed of the form */}
+          <div className="field">
+            <label className="label">Recipe</label>
+            <div className="control">
+              <textarea className="textarea" placeholder="Enter your recipe"></textarea>
+            </div>
+          </div>
+
 
         {/* display full recipy to be submited */}
 
