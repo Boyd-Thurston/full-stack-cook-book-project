@@ -3,10 +3,16 @@ import { render } from 'enzyme'
 
 class RecipeForm extends React.Component {
   state = {
+    name: "",
+    ingredient: "",
+    ammount: ""
 
   }
 
   handleOnChange = event => {
+    this.setState({
+      [event.target.name]: event.target.value
+    })
 
   }
   
@@ -28,7 +34,7 @@ class RecipeForm extends React.Component {
         <label className="label">Name your recipe</label>
         <div className="field is-grouped">
           <p className="control is-expanded">
-            <input className="input" type="text" placeholder="recipe name" value="" onChange={this.handleOnChange}/>
+            <input className="input" type="text" name="name" placeholder="recipe name" value={this.state.name} onChange={this.handleOnChange}/>
           </p>
           <p className="control">
             <button type="submit" className="button is-primary">Name it!</button>
@@ -39,10 +45,10 @@ class RecipeForm extends React.Component {
         <label className="label">Add a new ingredient</label>
         <div className="field is-grouped">
           <p className="control is-expanded">
-            <input className="input" type="text" name="ingredient" placeholder="ingredient" value="" onChange={this.handleOnChange}/>
+            <input className="input" type="text" name="ingredient" placeholder="ingredient" value={this.state.ingredient} onChange={this.handleOnChange}/>
           </p>
           <p className="control">
-            <input className="input" type="text" name="ammount" placeholder="ammount" value="" onChange={this.handleOnChange}/>
+            <input className="input" type="text" name="ammount" placeholder="ammount" value={this.state.ammount} onChange={this.handleOnChange}/>
           </p>
           <div className="control">
             <div className="select">
@@ -74,6 +80,7 @@ class RecipeForm extends React.Component {
 
 
         {/* display full recipy to be submited */}
+        <h2 className="title">{this.state.name}</h2>
 
         {/* submit new recipe control */}
       </>
