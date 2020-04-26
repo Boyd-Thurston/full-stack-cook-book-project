@@ -3,6 +3,9 @@
 This project is to test my learning and create a full stack web app. The idea behind the app is a personalised cookbook that lets you use a recipe API to find new recipes that you can save to your cookbook. Potentially with the ability to have multiple users as well as adding your own customised recipes.
  
 intended API has not panned out, with lake of a decent replacement this concept has been removed. Current concept is to allow saving of a custom recipe with an option to share it for searches that will have more content as the db grows. Now loosing a large part of the functionality the concept will now include a stretch goal of allowing a user to create a meal plan for a week and get a combined list of increadiants as a shoping list starter.
+
+KanBan board located at: https://trello.com/b/u3wr31Wm/cookbook-planner
+DB schema located at: https://dbdiagram.io/d/5ea5427e39d18f5553fe388d 
  
 # learning objectives
 
